@@ -59,10 +59,13 @@ public class Login extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setFont(new java.awt.Font("Ubuntu Light", 0, 13)); // NOI18N
         jLabel1.setText("Usuario");
 
+        jLabel2.setFont(new java.awt.Font("Ubuntu Light", 0, 13)); // NOI18N
         jLabel2.setText("Password");
 
+        btnLogin.setFont(new java.awt.Font("Ubuntu Light", 0, 13)); // NOI18N
         btnLogin.setText("Log-In");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -70,11 +73,14 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
+        txt_usuario.setFont(new java.awt.Font("Ubuntu Light", 0, 13)); // NOI18N
         txt_usuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_usuarioActionPerformed(evt);
             }
         });
+
+        txt_password.setFont(new java.awt.Font("Ubuntu Light", 0, 13)); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -106,7 +112,7 @@ public class Login extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(txt_password, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 70, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 82, Short.MAX_VALUE)
                 .addComponent(btnLogin)
                 .addGap(59, 59, 59))
         );
